@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 
 
-public class TesteJson {
+public class DistribuidoraDiario {
 
     public static void main(String[] args){
 
