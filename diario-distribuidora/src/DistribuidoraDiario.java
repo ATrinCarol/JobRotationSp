@@ -55,7 +55,7 @@ public class DistribuidoraDiario {
                 menorValor = valores;
                 }
         }
-        System.out.println("Total de dias: " + totalDias);
+        System.out.println("Total de dias da lista: " + totalDias);
 
         List<Map.Entry<String, Double>> valoresValidos = faturamentoDiario.entrySet().stream().filter((elemento) -> elemento.getValue() != 0.0).collect(Collectors.toList());
         int diasValidos = valoresValidos.size();
